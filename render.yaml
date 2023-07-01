@@ -1,0 +1,5 @@
+buildCommand: npm ci && npm run build
+startCommand: node index.js
+environment:
+  nodeVersion: 18.16.1
+
