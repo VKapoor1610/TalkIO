@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
     "start": "node index.js",
     "build:css": "echo 'No CSS build step required'",
     "build:js": "mkdir -p dist && cp script.js dist/script.js",
