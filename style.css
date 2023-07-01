@@ -1,5 +1,7 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
 }
 
 body {
@@ -16,7 +18,7 @@ body {
 
 .icon{
     height: 2rem;
-    margin-left: 45vw
+    margin-left: 40vw;
 }
 
 
@@ -52,6 +54,7 @@ body {
     overflow-y: scroll;
 
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3) ;
+    /* margin-bottom: 20px; */
 
   }
 
@@ -91,6 +94,8 @@ body {
     background-color: #DCF8C6;
 
     margin: 3px;
+    margin-top: 1px;
+    margin-bottom: 5px;
     margin-left: 10px ;
 
     padding: 4px;
@@ -160,6 +165,7 @@ body {
     display: flex;
     height: 8vh;
     background: transparent;
+
   }
 
   .sent{
