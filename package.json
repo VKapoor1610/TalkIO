@@ -6,11 +6,9 @@
   "scripts": {
     "devStart": "nodemon server.js",
     "start": "node index.js",
-    "build": "npm run build:css && npm run build:js" ,
     "build:css": "echo 'No CSS build step required'",
-    "build:js": "cp script.js dist/script.js"
-
-
+    "build:js": "mkdir -p dist && cp script.js dist/script.js",
+    "build": "npm run build:css && npm run build:js"
   },
   "author": "",
   "license": "ISC",
