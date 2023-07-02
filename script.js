@@ -33,4 +33,8 @@ function appendMessage(message  , pos) {
   messageElement.innerText = message
   messageElement.classList.add(pos)
   messageContainer.append(messageElement)
+
+  // Scroll to the bottom of the message container
+  messageContainer.scrollTop = messageContainer.scrollHeight;
+
 }
