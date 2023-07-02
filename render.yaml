@@ -1,5 +1,9 @@
-buildCommand: npm ci && npm run build
-startCommand: node index.js
-environment:
-  nodeVersion: 18.16.1
-
+services:
+- name: client
+  type: static
+  env:
+    BUILD_COMMAND: npm install --production
+    BUILD_OUTPUT: .
+  routes:
+  - src: /
+    dest: /opt/render/project/src
